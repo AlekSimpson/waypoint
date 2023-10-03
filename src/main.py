@@ -24,7 +24,7 @@ def remove(name, data):
 
 def main():
     commands = {"place" : place, "del" : remove}
-    filename = "/home/alek/Desktop/projects/waypoint/src/store.json"
+    filename = "/Users/aleksimpson/Desktop/projects/waypoint/src/store.json"
 
     # load json
     paths = read_file(filename)
